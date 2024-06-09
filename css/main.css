@@ -1,0 +1,238 @@
+@media only screen and (min-width: 991px) {
+    .banner {
+        height: calc(100vh - 55px);
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .header .header-bottom .mobile-logo img {
+        width: auto;
+        height: 35px;
+        margin-right: 10px;
+        padding-left: 30px;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .header .header-bottom .mobile-logo img {
+        width: auto;
+        height: 35px;
+        margin-right: 10px;
+        padding-left: 30px;
+    }
+
+    .btn-connect {
+        text-align: center;
+    }
+
+    .banner-content h1 {
+        font-size: 25px !important;
+        text-align: center;
+    }
+
+    .banner-content h4 {
+        display: none !important;
+    }
+
+    .banner-content .text-info {
+        font-size: 25px !important;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .header .header-bottom .mobile-logo img {
+        width: auto;
+        height: 35px;
+        margin-right: 10px;
+        padding-left: 30px;
+    }
+
+    .btn-connect {
+        text-align: center;
+
+    }
+
+    .banner-content h1 {
+        font-size: 25px !important;
+        text-align: center;
+    }
+
+    .banner-content h4 {
+        display: none !important;
+    }
+
+    .banner-content .text-info {
+        font-size: 25px !important;
+        text-align: center;
+    }
+}
+
+
+.banner {
+    background-size: cover;
+}
+
+.banner .part-img {
+    bottom: -40px;
+}
+
+.header .header-top {
+    background-color: #005C97;
+}
+
+.header .logo {
+    padding-bottom: 20px;
+    background-color: #005C97;
+    background-image: linear-gradient(180deg, #005C97 0%, #005C97 100%);
+}
+
+.header.header-fixed .logo {
+    display: none;
+}
+
+.header .header-top .support-info ul li {
+    color: white;
+}
+
+.header .header-top .date ul li {
+    color: white;
+}
+
+
+.how-it-works {
+    padding: 60px 0;
+}
+
+.taiapp-session img {
+    width: 70%;
+}
+
+.single-feature {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.newsletter-area {
+    padding: 30px 60px !important;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.newsletter .newsletter-area .part-text h2 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.part-text {
+    width: 100%;
+    text-align: justify;
+}
+
+.part-text-button {
+    width: 100%;
+    text-align: center;
+}
+
+.part-text-button a {
+    background: rgb(0, 92, 151);
+    background: linear-gradient(184deg, rgba(0, 92, 151, 1) 0%, rgba(15, 101, 157, 1) 100%) !important;
+}
+
+.part-text-button a:hover {
+    background: rgb(16, 122, 190);
+    background: linear-gradient(184deg, rgba(16, 122, 190, 1) 0%, rgba(35, 150, 224, 1) 100%) !important;
+}
+
+.part-form {
+    text-align: center;
+}
+
+.part-form p {
+    color: aliceblue;
+    text-align: justify;
+}
+
+.part-form img {
+    width: 40px;
+}
+
+.footer {
+    padding: 120px 0;
+    background: url('../img/footer.png') center center no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: 2;
+    overflow: hidden;
+}
+
+.banner .banner-content h4.subtitle {
+    color: linear-gradient(184deg, rgba(53, 193, 215, 1) 0%, rgba(23, 162, 184, 1) 47%, rgba(3, 105, 121, 1) 100%);
+    background: rgb(53, 193, 215);
+    background: linear-gradient(184deg, rgba(53, 193, 215, 1) 0%, rgba(23, 162, 184, 1) 47%, rgba(3, 105, 121, 1) 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+    display: inline-block;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin-bottom: 18px;
+    margin-top: -5px;
+    font-size: 26px;
+}
+
+.text-info {
+    color: linear-gradient(184deg, rgba(53, 193, 215, 1) 0%, rgba(23, 162, 184, 1) 47%, rgba(3, 105, 121, 1) 100%);
+    font-weight: bold;
+    font-family: 'Fira Sans';
+}
+
+.feature .part-img {
+    margin-left: -120px;
+}
+
+.footer .useful-links ul li a:before {
+    position: absolute;
+    content: "";
+    left: 1px;
+    bottom: 1px;
+    width: 0;
+    height: 1px;
+    background: #ccc;
+    opacity: 0.4;
+    transition: all 0.3s ease-in;
+}
+
+.footer .useful-links ul li a:after {
+    position: absolute;
+    content: none;
+    left: 0;
+    top: 50%;
+    margin-top: -4px;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+}
+
+.footer .useful-links ul li a {
+    display: inline-block;
+    font-size: 14px;
+    color: #bbb;
+    padding: 7px 0;
+    position: relative;
+    padding-left: 5px;
+    text-transform: capitalize;
+    font-family: "Ubuntu", sans-serif;
+}
+
+.feature .single-feature .part-text {
+    text-align: center;
+}
+
+.single-process,
+.single-feature {
+    cursor: pointer;
+}

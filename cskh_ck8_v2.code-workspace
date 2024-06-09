@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"name": "cskh_ck8_v2",
+			"path": "."
+		},
+		{
+			"name": "cskh_ck8",
+			"path": "../cskh_ck8"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "cskh_ck8_v2"
+	}
+}
